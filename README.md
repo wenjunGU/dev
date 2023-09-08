@@ -1,6 +1,6 @@
 # 云原生API参考
 
-【以下k8s相关均为使用原生API，需带入k8s集群的config认证文件，并授权相关的serviceaccount】
+【以下k8s相关均为使用原生API，需带入k8s集群的config认证文件，并授权相关的serviceaccount。在kubernetes2.0以上版本，获取node资源API已不兼容，需要做相关修改】
 一：create_project
 该接口为harbor项目的创建作用，POST调用。其中代码中写死了私仓地址以及授权的用户，
 需要更改使用，或者将授权用户改为参数传递。调用时需要在header头中传递用户密码
