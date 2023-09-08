@@ -50,3 +50,4 @@ curl -s -d type={cpu or memory} -d region={qingdao or shanghai} http://ip:8888/v
  
 ##获取当前集群指定region实际未分配值
 curl -s -d type={cpu or memory or all} -d region={qingdao or shanghai} http://ip:8888/v3/resource/region
+
